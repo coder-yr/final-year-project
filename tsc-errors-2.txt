@@ -1,0 +1,20 @@
+﻿src/components/features/admin/views/messages-view.tsx(263,88): error TS2339: Property 'uid' does not exist on type 'User'.
+src/components/features/booking/ticket-pdf.tsx(139,55): error TS2339: Property 'busNumber' does not exist on type 'Booking'.
+src/components/features/hotel/add-hotel-documents-form.tsx(17,24): error TS2307: Cannot find module './ui/button' or its corresponding type declarations.
+src/components/features/hotel/add-hotel-documents-form.tsx(23,35): error TS2345: Argument of type 'ForwardRefExoticComponent<Omit<LucideProps, "ref"> & RefAttributes<SVGSVGElement>>' is not assignable to parameter of type 'typeof Class'.
+  Type 'ForwardRefExoticComponent<Omit<LucideProps, "ref"> & RefAttributes<SVGSVGElement>>' provides no match for the signature 'new (..._: any[]): Class'.
+src/components/features/hotel/add-hotel-documents-form.tsx(24,47): error TS2339: Property 'size' does not exist on type 'Class'.
+src/components/features/hotel/add-hotel-documents-form.tsx(26,71): error TS2339: Property 'type' does not exist on type 'Class'.
+src/components/features/hotel/add-hotel-form.tsx(11,35): error TS2307: Cannot find module './ui/card' or its corresponding type declarations.
+src/components/features/hotel/add-hotel-form.tsx(81,19): error TS2339: Property 'name' does not exist on type 'Class'.
+src/components/features/hotel/add-hotel-form.tsx(82,42): error TS2339: Property 'name' does not exist on type 'Class'.
+src/components/features/hotel/image-grid.tsx(5,24): error TS2307: Cannot find module './ui/button' or its corresponding type declarations.
+src/components/features/hotel/image-grid.tsx(10,89): error TS2307: Cannot find module './ui/carousel' or its corresponding type declarations.
+src/components/features/room/add-room-form.tsx(85,24): error TS2345: Argument of type '{ images: string[]; description: string; title: string; hotelId: string; price: number; capacity: number; virtualTourUrl?: string | undefined; }' is not assignable to parameter of type 'NewRoom'.
+  Property 'status' is missing in type '{ images: string[]; description: string; title: string; hotelId: string; price: number; capacity: number; virtualTourUrl?: string | undefined; }' but required in type 'Omit<Room, "id" | "createdAt" | "data-ai-hint" | "hotelName">'.
+src/components/features/room/room-card.tsx(12,33): error TS2307: Cannot find module './ui/date-range-picker' or its corresponding type declarations.
+src/components/features/room/room-card.tsx(59,29): error TS2345: Argument of type '{ userId: string; roomId: string; hotelId: string; fromDate: Date; toDate: Date; }' is not assignable to parameter of type 'NewBooking'.
+  Property 'totalPrice' is missing in type '{ userId: string; roomId: string; hotelId: string; fromDate: Date; toDate: Date; }' but required in type 'NewBooking'.
+src/lib/types.ts(103,3): error TS2300: Duplicate identifier 'images'.
+src/lib/types.ts(104,3): error TS2300: Duplicate identifier 'images'.
+src/lib/types.ts(105,3): error TS2300: Duplicate identifier 'images'.

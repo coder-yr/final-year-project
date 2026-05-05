@@ -1,0 +1,3 @@
+﻿src/components/features/hotel/add-hotel-documents-form.tsx(17,24): error TS2307: Cannot find module './ui/button' or its corresponding type declarations.
+src/components/features/hotel/add-hotel-documents-form.tsx(23,37): error TS2345: Argument of type 'ForwardRefExoticComponent<Omit<LucideProps, "ref"> & RefAttributes<SVGSVGElement>>' is not assignable to parameter of type 'typeof Class'.
+  Type 'ForwardRefExoticComponent<Omit<LucideProps, "ref"> & RefAttributes<SVGSVGElement>>' provides no match for the signature 'new (..._: any[]): Class'.

@@ -1,0 +1,5 @@
+﻿src/components/features/hotel/add-hotel-documents-form.tsx(17,24): error TS2307: Cannot find module './ui/button' or its corresponding type declarations.
+src/components/features/hotel/add-hotel-documents-form.tsx(23,35): error TS2345: Argument of type 'ForwardRefExoticComponent<Omit<LucideProps, "ref"> & RefAttributes<SVGSVGElement>>' is not assignable to parameter of type 'typeof Class'.
+  Type 'ForwardRefExoticComponent<Omit<LucideProps, "ref"> & RefAttributes<SVGSVGElement>>' provides no match for the signature 'new (..._: any[]): Class'.
+src/components/features/hotel/add-hotel-documents-form.tsx(24,47): error TS2339: Property 'size' does not exist on type 'Class'.
+src/components/features/hotel/add-hotel-documents-form.tsx(26,71): error TS2339: Property 'type' does not exist on type 'Class'.

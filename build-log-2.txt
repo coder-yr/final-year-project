@@ -1,0 +1,30 @@
+﻿
+> nextn@0.1.0 build
+> next build
+
+node.exe : uncaughtException 
+[Error: EPERM: operation not 
+permitted, open 
+'F:\yash\college project\travel-
+booking-system\.next\trace'] {
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" "C:\Users
+\Acer\AppData\Roaming\n ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~
+    + CategoryInfo          : N 
+   otSpecified: (uncaughtExcep  
+  ti....next\trace'] {:String   
+ ) [], RemoteException
+    + FullyQualifiedErrorId : N 
+   ativeCommandError
+ 
+  errno: -4048,
+  code: 'EPERM',
+  syscall: 'open',
+  path: 'F:\\yash\\college proje
+ct\\travel-booking-system\\.next
+\\trace'
+}
